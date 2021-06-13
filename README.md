@@ -6,11 +6,11 @@ My version of Arduino Uno for board isolation.
 
 ## Front Design
 
-![Front](UNO/eagle-design/vOne-UNO/vONE-UNO-front.png)
+![Front](vone-uno/vONE-UNO-front.png)
 
 ## Bottom Design
 
-![Bottom](UNO/eagle-design/vOne-UNO/vONE-UNO-bottom.png)
+![Bottom](vOne-UNO/vONE-UNO-bottom.png)
 
 ## Features
 
