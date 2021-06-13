@@ -11081,7 +11081,6 @@ Source: DCJ0303.pdf</description>
 <part name="LED4" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X6" device="B"/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100 NF"/>
-<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11198,10 +11197,6 @@ Source: DCJ0303.pdf</description>
 <attribute name="NAME" x="26.416" y="185.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.116" y="185.039" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C6" gate="G$1" x="-30.48" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="-32.004" y="131.699" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-21.844" y="131.699" size="1.778" layer="96" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -11216,14 +11211,9 @@ Source: DCJ0303.pdf</description>
 <wire x1="-33.02" y1="152.4" x2="-45.72" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="-45.72" y1="152.4" x2="-45.72" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="124.46" x2="-35.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="124.46" x2="-7.62" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="124.46" x2="-7.62" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="129.54" x2="-35.56" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="129.54" x2="-35.56" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-35.56" y="124.46"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11660,6 +11650,9 @@ Source: DCJ0303.pdf</description>
 <wire x1="-50.8" y1="149.86" x2="-58.42" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="AVCC"/>
 <wire x1="-7.62" y1="144.78" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="AREF"/>
+<wire x1="-12.7" y1="144.78" x2="-12.7" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="147.32" x2="-7.62" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A1" pin="VO"/>
 <wire x1="-63.5" y1="144.78" x2="-58.42" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
@@ -11688,6 +11681,7 @@ Source: DCJ0303.pdf</description>
 <wire x1="-17.78" y1="119.38" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-17.78" y="119.38"/>
 <wire x1="-12.7" y1="144.78" x2="-12.7" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-12.7" y="144.78"/>
 <junction x="-12.7" y="119.38"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="160.02" x2="-45.72" y2="154.94" width="0.1524" layer="91"/>
@@ -11710,15 +11704,6 @@ Source: DCJ0303.pdf</description>
 <wire x1="76.2" y1="165.1" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="182.88" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="AREF"/>
-<wire x1="-7.62" y1="147.32" x2="-15.24" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="147.32" x2="-15.24" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="129.54" x2="-25.4" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
