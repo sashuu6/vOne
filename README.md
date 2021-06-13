@@ -10,7 +10,7 @@ My version of Arduino Uno for board isolation.
 
 ## Bottom Design
 
-![Bottom](vOne-UNO/vONE-UNO-bottom.png)
+![Bottom](vone-UNO/vONE-UNO-bottom.png)
 
 ## Features
 
