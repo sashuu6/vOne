@@ -8,11 +8,15 @@ Design Tool : Autodesk Eagle PCB
 
 ## Front Design
 
-![Front](vone-uno/vONE-UNO-front.png)
+![Front](docs/vONE-UNO-front.png)
 
 ## Bottom Design
 
-![Bottom](vone-uno/vONE-UNO-bottom.png)
+![Bottom](docs/vONE-UNO-bottom.png)
+
+## Drills Design
+
+![Drills](docs/vONE-UNO-drills.png)
 
 ## Features
 
